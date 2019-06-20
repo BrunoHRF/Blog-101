@@ -13,7 +13,7 @@ function exibeContatos() {
     contato = blog_db.data[i];
     $("#grid-main-user").append(`
     <div class="w3-container">
-        <div class="w3-card-4 onclick="goToProfile(${contato.id}" style="width:70%">
+        <div class="w3-card-4 onclick="goToProfile(${contato.id})" style="width:70%">
             <header class="w3-container w3-light-grey">
             <h3>${contato.nome}</h3>
             </header>
