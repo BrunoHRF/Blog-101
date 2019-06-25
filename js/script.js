@@ -10,7 +10,7 @@ function exibeContatos() {
  }
 
  setTimeout(() => {
-    db.data.forEach((element, index) => {
+    db.data.forEach((element, home) => {
        document.querySelector(".teste").innerHTML += `
 
        <div class="container">

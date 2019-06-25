@@ -16,12 +16,13 @@ function insertContato(contato) {
 		"campoNome": contato.inputNome,
 		"campoImg": contato.jsonstore,
         "campoIdade": contato.inputIdade,
-        "campoCidade": contato.inputCidade,
+		"campoCidade": contato.inputCidade,
+		"campoPost":contato.inputPost,
         "data": contato.DataAtual,
 	};
 
 	// Insere o novo objeto no array
 	db.data.push(novoContato);
 
-	localStorage.setItem('db', JSON.stringify(db));	
+	localStorage.setItem('db', JSON.stringify(db));
 }
