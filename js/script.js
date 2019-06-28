@@ -18,18 +18,19 @@ function exibeContatos() {
                 <div class="col-md-12">
                 </div>
                 <div class="col-sm-12">
+                <img src="${element.campoImg}"> 
                 <h4 class="card-title">
                 <div class="card-header">
                 <h3>${element.campoNome}</h3>
+                <br>${element.campoIdade} anos.
                 </div>
-                </h4>
-                   <h4>${element.campoIdade} Anos</h4><br>
+                <br>
                    <div class="form-group">
-                   <label for="comentario">Comentario: ${element.campoPost}</label>
+                   <h4><label for="comentario">Comentario: ${element.campoPost}</label></h4>
                    <div class="col-lg-4 col-md-6 mb-4">
                    </div><br>
                    <p class="card-text">${element.data}</p>
-                   <textarea class="form-control" rows="2" id="comentario" placeholder="Comentar a publicacao"></textarea>
+                   <textarea class="form-control" rows="4" id="comentario" placeholder="Comentar a publicacao"></textarea>
                    <div class="form-group span7 text-center col-md-12">
                    <button type="submit" id= "btnInsert" value="submit" class="btn btn-primary">Enviar</button>
                    <button type="submit" id= "btnInsert" value="submit" class="btn btn-primary" align="right">Like</button>

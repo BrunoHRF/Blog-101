@@ -16,7 +16,7 @@ function init() {
              "inputCidade": campoCidade,
              "DataAtual": data,
              "inputPost": campoPost,
-             "jsonstore": campoImg,
+             "jsonstore": JSON.parse(campoImg).img,
          }
          insertContato(contato);
      });
