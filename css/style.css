@@ -4,6 +4,10 @@
 	font-family: 'PT Serif', serif;
 
 }
+img{
+    display: block;
+   text-align: center;
+}
 ul{
     word-spacing: 30px;
 }
